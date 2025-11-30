@@ -8,7 +8,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     curl \
     nmap \
-    nikto \
     git \
     && rm -rf /var/lib/apt/lists/*
 
